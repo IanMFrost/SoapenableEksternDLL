@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BilletLib</name>
+    </assembly>
+    <members>
+        <member name="M:BilletLib.Bil.KøretøjType">
+            <summary>
+            Returner køretøjstyper, alt efter hvis den kører over Øresundsbroen eller ej. 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLib.Bil.NummerPladeBegrænsing">
+            <summary>
+            Sørger for at der kun må være maks 7 cifre i nummerpladen.
+            </summary>
+        </member>
+        <member name="M:BilletLib.Bil.WeekendRabat">
+            <summary>
+            Udregner rabat i weekenden
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLib.MC.KøretøjType">
+            <summary>
+            Returner om det er en Øresunds MC, eller en MC
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLib.MC.NummerPladeBegrænsing">
+            <summary>
+            Sikrer sig at der kun kan oprettes en nummerplade med 7 cifre. Er den længere end 7 cifre smider den en exception
+            </summary>
+        </member>
+    </members>
+</doc>
